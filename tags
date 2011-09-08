@@ -1,0 +1,489 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCEPT_ALL	include/utcp_config.h	5;"	d
+AR	Makefile	/^AR        = ar$/;"	m
+ARFLAGS	Makefile	/^ARFLAGS   = -cru$/;"	m
+CC	Makefile	/^CC        = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS    = $(DEBUG) $(OPT) $(DEFINES) $(INCLUDE)$/;"	m
+CONTINUOUS	include/timer.h	/^  CONTINUOUS$/;"	e	enum:t_type
+CONTINUOUS_EXPIRY	source/test_timer.c	9;"	d	file:
+CP	Makefile	/^CP = cp$/;"	m
+DEBUG	Makefile	/^DEBUG     = -g $/;"	m
+DEFINES	Makefile	/^DEFINES   =$/;"	m
+DST	include/utype.h	17;"	d
+EQUAL	include/utype.h	21;"	d
+FALSE	include/utype.h	14;"	d
+FLAG_ACK_DATA	include/utcp.h	34;"	d
+FLAG_ACK_DATA_ACKED	include/utcp.h	33;"	d
+FLAG_ACK_RETR_SEG	include/utcp.h	31;"	d
+FLAG_ACK_SND_UNA_ADV	include/utcp.h	30;"	d
+FLAG_ACK_WND_UPD	include/utcp.h	32;"	d
+FLAG_DUP_ACK	include/utcp.h	36;"	d
+GET_RIGHT_SLOT	source/timer.c	8;"	d	file:
+INCLUDE	Makefile	/^INCLUDE   = -I$(UTCP_INC) $/;"	m
+IP_FRAG_OFF	include/uip.h	14;"	d
+IP_HLEN	include/uip.h	10;"	d
+IP_MORE_FRAG	include/uip.h	13;"	d
+IPv4	include/uip.h	11;"	d
+MAX	include/utype.h	20;"	d
+MAX_IPv4_HLEN	include/uip.h	8;"	d
+MAX_TCP_HDR_LEN	include/utcp.h	19;"	d
+MAX_TCP_OPT_HLEN	include/utcp.h	18;"	d
+MAX_TIME_VALUE	include/timer.h	10;"	d
+MIN	include/utype.h	19;"	d
+MIN_IPv4_HLEN	include/uip.h	7;"	d
+MIN_TCP_HDR_LEN	include/utcp.h	17;"	d
+MV	Makefile	/^MV = mv$/;"	m
+ONE_SHOT	include/timer.h	/^  ONE_SHOT,$/;"	e	enum:t_type
+OPT	Makefile	/^OPT       = $/;"	m
+PEER_BIND_ALL	include/utcp.h	/^  PEER_BIND_ALL = PEER_BIND_FLOW_CTRL$/;"	e	enum:peer_binding
+PEER_BIND_FLOW_CTRL	include/utcp.h	/^  PEER_BIND_FLOW_CTRL = 0x01,$/;"	e	enum:peer_binding
+RM	Makefile	/^RM = rm -f$/;"	m
+SRC	include/utype.h	16;"	d
+TCP_HLEN	include/utcp.h	39;"	d
+TEN_SEC_EXP	source/test_timer.c	8;"	d	file:
+TIMER_GRANUL	include/timer.h	9;"	d
+TIMER_INTERVAL	include/timer.h	8;"	d
+TRUE	include/utype.h	13;"	d
+TWHEEL_LIST	include/timer.h	17;"	d
+UIP_DEFAULT_TTL	include/uip.h	6;"	d
+UTCP_BIN_DIR	Makefile	/^UTCP_BIN_DIR= .\/bin$/;"	m
+UTCP_DEF_ID	include/utcp_config.h	31;"	d
+UTCP_DEF_RTO	include/utcp_config.h	15;"	d
+UTCP_DEF_TTL	include/utcp_config.h	30;"	d
+UTCP_DEF_WSCALE	include/utcp_config.h	17;"	d
+UTCP_ERR	include/utcp_err.h	/^  UTCP_ERR = -1,$/;"	e	enum:utcp_err
+UTCP_FLAG_ACK	include/utcp.h	25;"	d
+UTCP_FLAG_CWR	include/utcp.h	28;"	d
+UTCP_FLAG_ECE	include/utcp.h	27;"	d
+UTCP_FLAG_FIN	include/utcp.h	21;"	d
+UTCP_FLAG_PSH	include/utcp.h	24;"	d
+UTCP_FLAG_RST	include/utcp.h	23;"	d
+UTCP_FLAG_SYN	include/utcp.h	22;"	d
+UTCP_FLAG_URG	include/utcp.h	26;"	d
+UTCP_INC	Makefile	/^UTCP_INC= .\/include$/;"	m
+UTCP_INCOMING	include/utcp_config.h	26;"	d
+UTCP_INCOMING_IP_CSUM	include/utcp_config.h	25;"	d
+UTCP_LIB_DIR	Makefile	/^UTCP_LIB_DIR= .\/lib$/;"	m
+UTCP_LIB_FILE	Makefile	/^UTCP_LIB_FILE= libutcp.a$/;"	m
+UTCP_MAX_RECVQ	include/utcp_config.h	12;"	d
+UTCP_MAX_RECVQ_BYTES	include/utcp_config.h	9;"	d
+UTCP_MAX_RETRIES	include/utcp_config.h	14;"	d
+UTCP_MAX_SEG	include/utcp_config.h	7;"	d
+UTCP_MAX_SENDQ	include/utcp_config.h	11;"	d
+UTCP_MAX_SENDQ_BYTES	include/utcp_config.h	8;"	d
+UTCP_OBJ_DIR	Makefile	/^UTCP_OBJ_DIR= .\/obj$/;"	m
+UTCP_RENO_IW	include/utcp_config.h	22;"	d
+UTCP_RENO_SSTHRESH	include/utcp_config.h	23;"	d
+UTCP_SEND_FULL	include/utcp_err.h	/^  UTCP_SEND_FULL = -2,$/;"	e	enum:utcp_err
+UTCP_SRC	Makefile	/^UTCP_SRC=.\/source$/;"	m
+UTCP_SUCC	include/utcp_err.h	/^  UTCP_SUCC = 0$/;"	e	enum:utcp_err
+WHEEL_LEN	include/timer.h	13;"	d
+__LIST_H__	include/list.h	2;"	d
+__TIMER_H__	include/timer.h	2;"	d
+__UIP_H__	include/uip.h	2;"	d
+__UTCPIO_H__	include/utcpio.h	2;"	d
+__UTCP_CONFIG_H__	include/utcp_config.h	2;"	d
+__UTCP_CSUM_H__	include/utcp_csum.h	2;"	d
+__UTCP_ERR_H__	include/utcp_err.h	2;"	d
+__UTCP_H__	include/utcp.h	2;"	d
+__UTYPE_H__	include/utype.h	2;"	d
+_do_add_timer	source/timer.c	/^static inline ptimerinfo_node _do_add_timer(ptimerinfo timerinfo)$/;"	f	file:
+_do_restart_timer	source/timer.c	/^static inline int _do_restart_timer(ptimerinfo_node timerinfo_node, ptimerinfo timerinfo)$/;"	f	file:
+ack	include/utcp.h	/^  uint32 ack;$/;"	m	struct:tcp_pkt_meta_t
+add_one_shot_timer	source/timer.c	/^void *add_one_shot_timer(void (*expiry_handler)(void *userptr), void *userptr, uint16 timeout)$/;"	f
+add_repetitive_timer	source/timer.c	/^void *add_repetitive_timer(void (*expiry_handler)(void *userptr), void *userptr, uint16 timeout)$/;"	f
+add_timer	source/timer.c	/^static void *add_timer(void (*expiry_handler)(void *userptr), void *userptr, uint16 timeout, timer_type type)$/;"	f	file:
+add_timer_node	source/timer.c	/^void add_timer_node(ptimerinfo_node timerinfo_node, ptimerinfo timerinfo)$/;"	f
+addr	include/utcp.h	/^  uint32 addr;$/;"	m	struct:soc_addr
+advwnd	include/utcp.h	/^  int advwnd;$/;"	m	struct:tcp_sk
+after	include/utype.h	37;"	d
+alloc_ip_pkt_recv_meta	source/utcp.c	/^static inline void alloc_ip_pkt_recv_meta(ptcp_recv_meta recv_meta, uint8* ippkt, uint16 len)$/;"	f	file:
+alloc_recv_meta	source/utcp.c	/^static inline ptcp_recv_meta alloc_recv_meta(ptcp_sk tcp_sk)$/;"	f	file:
+alloc_tcp_sk	source/utcp.c	/^static inline ptcp_sk alloc_tcp_sk()$/;"	f	file:
+allocate_ip_pkt	source/utcp.c	/^static inline uint8 *allocate_ip_pkt(uint16 len)$/;"	f	file:
+append_retransmit	source/utcp.c	/^int append_retransmit(ptcp_sk tcp_sk, psendQ_node sndnode)$/;"	f
+available_advwnd	source/utcp.c	/^static inline int available_advwnd(ptcp_sk tcp_sk)$/;"	f	file:
+available_recvwnd	source/utcp.c	/^static inline int available_recvwnd(ptcp_sk tcp_sk)$/;"	f	file:
+available_sendQ	source/utcp.c	/^static inline int available_sendQ(ptcp_sk tcp_sk)$/;"	f	file:
+backoff_rto	source/utcp.c	8;"	d	file:
+before	include/utype.h	/^static inline int before(uint32 seq1, uint32 seq2)$/;"	f
+binding	include/utcp.h	/^  peer_binding_t binding;$/;"	m	struct:peer_bind
+bytes_enqueued	include/utcp.h	/^  uint32 bytes_enqueued;$/;"	m	struct:tcp_sk
+bytes_sent	include/utcp.h	/^  uint32 bytes_sent;$/;"	m	struct:tcp_sk
+bytes_to_segments	source/utcp.c	/^static inline int bytes_to_segments(uint32 bytes, uint16 mss)$/;"	f	file:
+cal_cksum	source/utcp_csum.c	/^unsigned short cal_cksum(unsigned short len, unsigned short *buff, unsigned int sum)$/;"	f
+cb	include/utcp.h	/^  tcp_cb cb;$/;"	m	struct:tcp_sk
+cond	source/test_timer.c	/^int cond = 1;$/;"	v
+cont_timer	source/test_timer.c	/^  void *cont_timer, *one_shot_timer, *one_shot_2;$/;"	v
+create_pkt_from_buff	source/utcp.c	/^int create_pkt_from_buff(ptcp_sk tcp_sk, const uint8 *buff, const int bufflen, ptcp_pkt_meta tcp_meta, int tcp_flags)$/;"	f
+create_tcp_meta_from_buff	source/utcp.c	/^int create_tcp_meta_from_buff(ptcp_sk tcp_sk, const uint8 *buff, const int len, pptcp_pkt_meta meta, int flags)$/;"	f
+create_tcp_meta_nodata	source/utcp.c	/^static inline ptcp_pkt_meta create_tcp_meta_nodata(ptcp_sk tcp_sk, int flags)$/;"	f	file:
+create_tcp_sk	source/utcp.c	/^ptcp_sk create_tcp_sk(uint32 localaddr, uint32 remoteaddr, uint16 localport, uint16 remoteport)$/;"	f
+curr_slot	include/timer.h	/^  uint16 curr_slot;$/;"	m	struct:mytimer
+cwnd	include/utcp.h	/^  uint32 cwnd; \/* are in bytes *\/$/;"	m	struct:tcp_sk
+cwnd_cnt	include/utcp.h	/^  uint32 cwnd_cnt; \/* bytes acked per rtt *\/$/;"	m	struct:tcp_sk
+data	include/list.h	/^  void *data;$/;"	m	struct:dll_node
+data	include/list.h	/^  void *data;$/;"	m	struct:queue_node
+data_app_ptr	include/utcp.h	/^  void *data_app_ptr;$/;"	m	struct:tcp_callbacks
+data_to_app	include/utcp.h	/^  void (*data_to_app)(void *tcp_sk, uint8* data, uint16 len, void *pktuserptr, void *data_to_app_ptr, void *user_peer_ptr);$/;"	m	struct:tcp_callbacks
+dealloc_tcp_meta	source/utcp.c	/^static void dealloc_tcp_meta(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+decr_ofoQ_len	source/utcp.c	/^static inline void decr_ofoQ_len(ptcp_sk tcp_sk)$/;"	f	file:
+deinit_tcp_meta_rto	source/utcp.c	/^static inline void deinit_tcp_meta_rto(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+delloc_tcp_sk	source/utcp.c	/^void delloc_tcp_sk(ptcp_sk tcp_sk)$/;"	f
+dequeue	source/list.c	/^int dequeue(struct queue *q, void **value)$/;"	f
+dequeue_timerinfo	source/timer.c	/^static inline int dequeue_timerinfo(ptimerinfo_node node, struct dll *pdll)$/;"	f	file:
+deregister_timer	source/timer.c	/^static int deregister_timer()$/;"	f	file:
+destroy_recv_meta	source/utcp.c	/^static inline void  destroy_recv_meta(ptcp_recv_meta recv_meta)$/;"	f	file:
+dll	include/list.h	/^struct dll$/;"	s
+dll_delete_from_head	source/list.c	/^void * dll_delete_from_head(struct dll *dll)$/;"	f
+dll_delete_node	source/list.c	/^int dll_delete_node(struct dll *dll, struct dll_node *node)$/;"	f
+dll_dequeue	source/list.c	/^static inline struct dll_node * dll_dequeue (struct dll *dll)$/;"	f	file:
+dll_enqueue	source/list.c	/^static inline dll_enqueue (struct dll *dll, struct dll_node *node)$/;"	f	file:
+dll_insert_at_tail	source/list.c	/^struct dll_node * dll_insert_at_tail(struct dll *dll, void *data)$/;"	f
+dll_link_at_tail	source/list.c	/^int dll_link_at_tail (struct dll *dll, struct dll_node *node)$/;"	f
+dll_node	include/list.h	/^struct dll_node$/;"	s
+dll_unlink	source/list.c	/^int dll_unlink (struct dll *dll, struct dll_node *node)$/;"	f
+dst_addr	include/utcp_csum.h	/^    __u32 dst_addr;$/;"	m	struct:tcp_pseudo
+end_seq	include/utcp.h	/^  uint32 end_seq;$/;"	m	struct:tcp_recv_pkt_meta_t
+end_seq_of_tcp_meta	source/utcp.c	/^static inline uint32 end_seq_of_tcp_meta(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+enqueue	source/list.c	/^int enqueue(struct queue *q, void *value)$/;"	f
+enter_flow_control	source/utcp.c	/^static inline void enter_flow_control(ptcp_sk tcp_sk)$/;"	f	file:
+enter_peer_flow_control	source/utcp.c	/^static inline void enter_peer_flow_control(ptcp_sk tcp_sk)$/;"	f	file:
+enter_quick_ack	source/utcp.c	/^static inline void enter_quick_ack(ptcp_sk tcp_sk)$/;"	f	file:
+execute_timerwheel	source/timer.c	/^void execute_timerwheel(struct dll *timer_list)$/;"	f
+expiry_handler	include/timer.h	/^  void (*expiry_handler)(void *userptr);$/;"	m	struct:timerinfo
+fill_ip_hdr	source/utcp.c	/^static void fill_ip_hdr(ptcp_sk tcp_sk, precyclehdr hdr, uint16 bufflen)$/;"	f	file:
+fill_ip_recv_meta	source/utcp.c	/^static inline void fill_ip_recv_meta(ptcp_recv_meta recv_meta, struct iphdr *iph)$/;"	f	file:
+fill_recv_meta	source/utcp.c	/^static void fill_recv_meta(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta, uint8* tcp_hdr, uint16 len)$/;"	f	file:
+fill_tcp_hdr	source/utcp.c	/^static void fill_tcp_hdr(ptcp_sk tcp_sk, precyclehdr hdr, const int flags)$/;"	f	file:
+fill_tcp_meta	source/utcp.c	/^static inline void fill_tcp_meta(ptcp_pkt_meta tcp_meta, ptcp_sk tcp_sk, precyclehdr hdr)$/;"	f	file:
+fill_tcp_recv_meta	source/utcp.c	/^static inline void fill_tcp_recv_meta(ptcp_recv_meta recv_meta, struct tcphdr *tcphdr)$/;"	f	file:
+first	include/list.h	/^  struct queue_node *first;$/;"	m	struct:queue	typeref:struct:queue::queue_node
+flags	include/utcp.h	/^    uint8 flags;$/;"	m	union:tcp_recv_pkt_meta_t::__anon1
+free_ip_pkt	source/utcp.c	/^static inline void free_ip_pkt(uint8 *pkt)$/;"	f	file:
+free_ip_pkt_recv_meta	source/utcp.c	/^static inline void free_ip_pkt_recv_meta(ptcp_recv_meta recv_meta)$/;"	f	file:
+free_recv_meta	source/utcp.c	/^static inline void free_recv_meta(ptcp_recv_meta recv_meta)$/;"	f	file:
+free_tcp_meta	source/utcp.c	/^static inline void free_tcp_meta(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+free_tcp_sk	source/utcp.c	/^static inline void free_tcp_sk(ptcp_sk tcp_sk)$/;"	f	file:
+free_timer_info	source/timer.c	/^void static inline free_timer_info(ptimerinfo timerinfo)$/;"	f	file:
+gather_packet	source/utcp.c	/^static uint8* gather_packet(const uint8 *buff, const uint16 bufflen, precyclehdr hdr)$/;"	f	file:
+get_ip_hlen	source/utcp.c	/^static inline uint16 get_ip_hlen(ptcp_sk tcp_sk)$/;"	f	file:
+get_next_timer_node	source/timer.c	/^static inline ptimerinfo_node get_next_timer_node(ptimerinfo_node node)$/;"	f	file:
+get_qhead	source/list.c	/^struct queue_node* get_qhead(struct queue *qptr)$/;"	f
+get_qtail	source/list.c	/^struct queue_node* get_qtail(struct queue *qptr)$/;"	f
+get_scaled_recvwnd	source/utcp.c	/^static inline uint16 get_scaled_recvwnd(ptcp_sk tcp_sk)$/;"	f	file:
+get_sendQ_head	source/utcp.c	/^static inline psendQ_node get_sendQ_head(ptcp_sk tcp_sk)$/;"	f	file:
+get_sendQ_tail	source/utcp.c	/^static inline psendQ_node get_sendQ_tail(ptcp_sk tcp_sk)$/;"	f	file:
+get_tcp_hlen	source/utcp.c	/^static inline uint16 get_tcp_hlen(ptcp_sk tcp_sk)$/;"	f	file:
+get_tcp_meta	source/utcp.c	/^static inline ptcp_pkt_meta get_tcp_meta(ptcp_sk tcp_sk)$/;"	f	file:
+get_tcp_options	source/utcp.c	/^static void inline get_tcp_options(char* buff, uint8 *len, ptcp_sk tcp_sk)$/;"	f	file:
+get_timer_head	source/timer.c	/^static inline ptimerinfo_node get_timer_head(struct dll *timer_list)$/;"	f	file:
+get_timer_info	source/timer.c	/^ptimerinfo static inline get_timer_info()$/;"	f	file:
+head	include/list.h	/^  struct dll_node *head;$/;"	m	struct:dll	typeref:struct:dll::dll_node
+head	include/utcp.h	/^  struct tcp_recv_pkt_meta_t *head;$/;"	m	struct:ofoQ_struct	typeref:struct:ofoQ_struct::tcp_recv_pkt_meta_t
+head_trim_recv_meta	source/utcp.c	/^static inline void head_trim_recv_meta(ptcp_recv_meta recv_meta, int overlap)$/;"	f	file:
+how_much_to_send	source/utcp.c	/^static inline uint32 how_much_to_send(ptcp_sk tcp_sk)$/;"	f	file:
+id	include/uip.h	/^  uint16 id;$/;"	m	struct:ip_sk
+incr_ofoQ_len	source/utcp.c	/^static inline void incr_ofoQ_len(ptcp_sk tcp_sk)$/;"	f	file:
+init_dll	source/list.c	/^void init_dll(struct dll *dll)$/;"	f
+init_ip_sk_opts	source/utcp.c	/^void inline init_ip_sk_opts(ptcp_sk tcp_sk)$/;"	f
+init_ipv4_hdr	source/utcp.c	/^static inline void init_ipv4_hdr(struct iphdr *ip_hdr, ptcp_sk tcp_sk)$/;"	f	file:
+init_queue	source/list.c	/^void init_queue(struct queue *q)$/;"	f
+init_recycle_hdr	source/utcp.c	/^static void init_recycle_hdr(ptcp_sk tcp_sk, precyclehdr hdr)$/;"	f	file:
+init_reno_opts	source/utcp.c	/^static void init_reno_opts(ptcp_sk tcp_sk)$/;"	f	file:
+init_tcp_hdr	source/utcp.c	/^static inline void init_tcp_hdr(struct tcphdr *tcp_hdr, ptcp_sk tcp_sk)$/;"	f	file:
+init_tcp_meta	source/utcp.c	/^static inline void init_tcp_meta(ptcp_pkt_meta tcp_meta, ptcp_sk tcp_sk)$/;"	f	file:
+init_tcp_meta_rto	source/utcp.c	/^static inline void init_tcp_meta_rto(ptcp_pkt_meta tcp_meta, ptcp_sk tcp_sk)$/;"	f	file:
+init_tcp_sk	source/utcp.c	/^void inline init_tcp_sk(ptcp_sk tcp_sk)$/;"	f
+init_tcp_sk_cong_opts	source/utcp.c	/^void inline init_tcp_sk_cong_opts(ptcp_sk tcp_sk)$/;"	f
+init_tcp_sk_opts	source/utcp.c	/^void init_tcp_sk_opts(ptcp_sk tcp_sk)$/;"	f
+init_timer_wheel	source/timer.c	/^static inline init_timer_wheel()$/;"	f	file:
+inorder_data_to_app	source/utcp.c	/^int inorder_data_to_app(ptcp_sk tcp_sk)$/;"	f
+insert_after_ofoQ	source/utcp.c	/^static inline void insert_after_ofoQ(ptcp_sk tcp_sk, ptcp_recv_meta prev_meta, ptcp_recv_meta new_meta)$/;"	f	file:
+insert_head_ofoQ	source/utcp.c	/^static inline void insert_head_ofoQ(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f	file:
+insert_tail_ofoQ	source/utcp.c	/^static inline void insert_tail_ofoQ(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f	file:
+insert_timerinfo	source/timer.c	/^static inline ptimerinfo_node insert_timerinfo(ptimerinfo timerinfo, struct dll *pdll)$/;"	f	file:
+insert_timerinfo_node	source/timer.c	/^static inline void insert_timerinfo_node(ptimerinfo_node node, struct dll *pdll)$/;"	f	file:
+int16	include/utype.h	/^typedef signed short int16;$/;"	t
+int32	include/utype.h	/^typedef signed int int32;$/;"	t
+ip_basic_checks	source/utcp.c	/^static inline int ip_basic_checks(ptcp_recv_meta recv_meta, uint8* ippkt, uint16 len)$/;"	f	file:
+ip_checksum	source/utcp_csum.c	/^unsigned short ip_checksum(struct iphdr * ip) $/;"	f
+ip_csum	source/utcp_csum.c	/^unsigned short ip_csum(unsigned short *ip_dgram, unsigned int hdr_len)$/;"	f
+ip_hdr	include/utcp.h	/^  struct iphdr ip_hdr;$/;"	m	struct:recyclehdr	typeref:struct:recyclehdr::iphdr
+ip_hlen	include/utcp.h	/^  uint8 ip_hlen; \/* ip_hlen present in pkt *\/$/;"	m	struct:tcp_pkt_meta_t
+ip_hlen	include/utcp.h	/^  uint8 ip_hlen;$/;"	m	struct:tcp_recv_pkt_meta_t
+ip_sk	include/uip.h	/^struct ip_sk$/;"	s
+ip_sk	include/utcp.h	/^  tip_sk ip_sk;$/;"	m	struct:tcp_sk
+ip_sum_calc	source/utcp_csum.c	/^uint16 ip_sum_calc(uint16 len_ip_header, uint16 buff[])$/;"	f
+ipdstaddr	include/utcp.h	125;"	d
+iplen	include/utcp.h	/^  uint16 iplen;$/;"	m	struct:tcp_recv_pkt_meta_t
+ipsrcaddr	include/utcp.h	124;"	d
+is_destined_to_us	source/utcp.c	/^static inline int is_destined_to_us(ptcp_sk tcp_sk, struct iphdr *iphdr)$/;"	f	file:
+is_quick_ack	source/utcp.c	/^static inline int is_quick_ack(ptcp_sk tcp_sk)$/;"	f	file:
+is_seg_retx	source/utcp.c	/^static inline int is_seg_retx(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+is_sndwnd_usable	source/utcp.c	/^static inline int is_sndwnd_usable(ptcp_sk tcp_sk)$/;"	f	file:
+is_tcp_destined_to_us	source/utcp.c	/^static inline int is_tcp_destined_to_us(ptcp_sk tcp_sk, struct tcphdr *tcph)$/;"	f	file:
+isn	include/utcp.h	/^  uint32 isn;$/;"	m	struct:tcp_sk
+isrunning	include/timer.h	/^  uint8  isrunning;$/;"	m	struct:timerinfo
+iw	include/utcp.h	/^  uint16 iw;$/;"	m	struct:tcp_sk
+last	include/list.h	/^  struct queue_node *last;$/;"	m	struct:queue	typeref:struct:queue::queue_node
+leave_flow_control	source/utcp.c	/^static inline void leave_flow_control(ptcp_sk tcp_sk, int bytes_acked)$/;"	f	file:
+leave_peer_flow_control	source/utcp.c	/^static inline void leave_peer_flow_control(ptcp_sk tcp_sk, int bytes_acked)$/;"	f	file:
+leave_quick_ack	source/utcp.c	/^static inline void leave_quick_ack(ptcp_sk tcp_sk)$/;"	f	file:
+len	include/list.h	/^  int len;$/;"	m	struct:dll
+len	include/list.h	/^  int len;$/;"	m	struct:queue
+len	include/utcp.h	/^  uint16 len; \/* Len of pkt *\/$/;"	m	struct:tcp_pkt_meta_t
+len	include/utcp.h	/^  uint32 len;$/;"	m	struct:ofoQ_struct
+len_of_sndnxt	source/utcp.c	/^static inline int len_of_sndnxt(ptcp_sk tcp_sk)$/;"	f	file:
+length	include/utcp_csum.h	/^    __u16 length;$/;"	m	struct:tcp_pseudo
+likely	include/utype.h	23;"	d
+lw	include/utcp.h	/^  uint16 lw;$/;"	m	struct:tcp_sk
+main	source/test_timer.c	/^int main()$/;"	f
+max_recvQ_size	include/utcp.h	/^  uint16 max_recvQ_size;$/;"	m	struct:tcp_sk
+max_retransmits	source/utcp.c	11;"	d	file:
+max_retries	include/utcp.h	/^  uint8 max_retries;$/;"	m	struct:tcp_pkt_meta_t
+max_retries	include/utcp.h	/^  uint8 max_retries;$/;"	m	struct:tcp_sk
+max_sendQ_size	include/utcp.h	/^  uint16 max_sendQ_size;$/;"	m	struct:tcp_sk
+mig_info	include/utcp.h	/^struct mig_info$/;"	s
+migrate_info	include/utcp.h	/^typedef struct mig_info migrate_info;$/;"	t	typeref:struct:mig_info
+modify_retransmit_timer	source/utcp.c	/^static int modify_retransmit_timer(ptcp_pkt_meta tcp_meta, uint16 newrto)$/;"	f	file:
+modify_timer_val	source/timer.c	/^int modify_timer_val(void *tinfo, uint16 newtimeout)$/;"	f
+mss	include/utcp.h	/^  uint16 mss;$/;"	m	struct:mig_info
+mss	include/utcp.h	/^  uint16 mss;$/;"	m	struct:tcp_sk
+mytimer	include/timer.h	/^struct mytimer$/;"	s
+next	include/list.h	/^  struct dll_node *next;$/;"	m	struct:dll_node	typeref:struct:dll_node::dll_node
+next	include/list.h	/^  struct queue_node *next;$/;"	m	struct:queue_node	typeref:struct:queue_node::queue_node
+next_node	source/utcp.c	/^static inline struct queue_node *next_node(struct queue_node *node)$/;"	f	file:
+next_qnode	source/utcp.c	/^static inline void *next_qnode(struct queue_node* nodeptr)$/;"	f	file:
+next_recv_meta	include/utcp.h	/^  struct tcp_recv_pkt_meta_t *next_recv_meta;$/;"	m	struct:tcp_recv_pkt_meta_t	typeref:struct:tcp_recv_pkt_meta_t::tcp_recv_pkt_meta_t
+no_of_retries	include/utcp.h	/^  uint8 no_of_retries;$/;"	m	struct:tcp_pkt_meta_t
+ofoQ	include/utcp.h	/^  ofoQ_t ofoQ ;$/;"	m	struct:tcp_sk
+ofoQ_head	source/utcp.c	140;"	d	file:
+ofoQ_len	source/utcp.c	/^static inline uint32 ofoQ_len(ptcp_sk tcp_sk)$/;"	f	file:
+ofoQ_struct	include/utcp.h	/^struct ofoQ_struct$/;"	s
+ofoQ_t	include/utcp.h	/^typedef struct ofoQ_struct ofoQ_t;$/;"	t	typeref:struct:ofoQ_struct
+ofoQ_tail	source/utcp.c	141;"	d	file:
+one_shot_2	source/test_timer.c	/^  void *cont_timer, *one_shot_timer, *one_shot_2;$/;"	v
+one_shot_timer	source/test_timer.c	/^  void *cont_timer, *one_shot_timer, *one_shot_2;$/;"	v
+packet_out	include/utcp.h	/^  void (*packet_out)(void *tcp_sk, uint8* ippkt, uint16 len, void* packet_out_ptr, void *user_peer_ptr);$/;"	m	struct:tcp_callbacks
+packet_out_ptr	include/utcp.h	/^  void *packet_out_ptr;$/;"	m	struct:tcp_callbacks
+peer_bind	include/utcp.h	/^struct peer_bind$/;"	s
+peer_bind_t	include/utcp.h	/^typedef struct peer_bind peer_bind_t;$/;"	t	typeref:struct:peer_bind
+peer_binding	include/utcp.h	/^enum peer_binding$/;"	g
+peer_binding_t	include/utcp.h	/^typedef enum peer_binding peer_binding_t;$/;"	t	typeref:enum:peer_binding
+peer_sk	include/utcp.h	/^  peer_bind_t peer_sk;$/;"	m	struct:tcp_sk
+pip_sk	include/uip.h	/^typedef struct ip_sk* pip_sk;$/;"	t	typeref:struct:ip_sk
+pkt	include/utcp.h	/^  uint8 *pkt; \/* Start of IP header *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+pkt	include/utcp.h	/^  uint8 *pkt; \/* While Sending this start of IP HDR *\/$/;"	m	struct:tcp_pkt_meta_t
+pmig_info	include/utcp.h	/^typedef struct mig_info *pmig_info;$/;"	t	typeref:struct:mig_info
+pofoQ	include/utcp.h	/^typedef struct ofoQ_struct *pofoQ;$/;"	t	typeref:struct:ofoQ_struct
+port	include/utcp.h	/^  uint16 port;$/;"	m	struct:soc_addr
+ppeer_bind	include/utcp.h	/^typedef struct peer_bind *ppeer_bind;$/;"	t	typeref:struct:peer_bind
+ppip_sk	include/uip.h	/^typedef struct ip_sk** ppip_sk;$/;"	t	typeref:struct:ip_sk
+pptcp_pkt_meta	include/utcp.h	/^typedef struct tcp_pkt_meta_t** pptcp_pkt_meta;$/;"	t	typeref:struct:tcp_pkt_meta_t
+pptcp_recv_meta	include/utcp.h	/^typedef struct tcp_recv_pkt_meta_t** pptcp_recv_meta;$/;"	t	typeref:struct:tcp_recv_pkt_meta_t
+pptcp_sk	include/utcp.h	/^typedef struct tcp_sk** pptcp_sk;$/;"	t	typeref:struct:tcp_sk
+precvQ	include/utcp.h	/^typedef struct queue* precvQ;$/;"	t	typeref:struct:queue
+precvQ_node	include/utcp.h	/^typedef struct queue_node* precvQ_node;$/;"	t	typeref:struct:queue_node
+precyclehdr	include/utcp.h	/^typedef struct recyclehdr* precyclehdr;$/;"	t	typeref:struct:recyclehdr
+prepare_pkt_to_send_out	source/utcp.c	/^static int prepare_pkt_to_send_out(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f	file:
+prev	include/list.h	/^  struct dll_node *prev;$/;"	m	struct:dll_node	typeref:struct:dll_node::dll_node
+printf	source/utcp.c	13;"	d	file:
+probe_timer	include/utcp.h	/^  void *probe_timer;$/;"	m	struct:tcp_sk
+proto	include/utcp_csum.h	/^    __u8 proto;$/;"	m	struct:tcp_pseudo
+psendQ	include/utcp.h	/^typedef struct queue* psendQ;$/;"	t	typeref:struct:queue
+psendQ_node	include/utcp.h	/^typedef struct queue_node* psendQ_node;$/;"	t	typeref:struct:queue_node
+pseudo_header	include/utcp_csum.h	/^} pseudo_header;$/;"	t	typeref:struct:tcp_pseudo
+psndnxt	include/utcp.h	/^  psendQ_node psndnxt;$/;"	m	struct:tcp_sk
+psnduna	include/utcp.h	/^  psendQ_node psnduna;$/;"	m	struct:tcp_sk
+ptcp_cb	include/utcp.h	/^typedef struct tcp_callbacks* ptcp_cb;$/;"	t	typeref:struct:tcp_callbacks
+ptcp_pkt_meta	include/utcp.h	/^typedef struct tcp_pkt_meta_t* ptcp_pkt_meta;$/;"	t	typeref:struct:tcp_pkt_meta_t
+ptcp_recv_meta	include/utcp.h	/^typedef struct tcp_recv_pkt_meta_t*  ptcp_recv_meta;$/;"	t	typeref:struct:tcp_recv_pkt_meta_t
+ptcp_sk	include/utcp.h	/^typedef struct tcp_sk* ptcp_sk;$/;"	t	typeref:struct:tcp_sk
+ptimerinfo	include/timer.h	/^typedef struct timerinfo* ptimerinfo;$/;"	t	typeref:struct:timerinfo
+ptimerinfo_node	include/timer.h	/^typedef struct dll_node *ptimerinfo_node;$/;"	t	typeref:struct:dll_node
+ptimerwheel	include/timer.h	/^typedef struct mytimer *ptimerwheel;$/;"	t	typeref:struct:mytimer
+purge_recvQ	source/utcp.c	/^static inline void purge_recvQ(ptcp_sk tcp_sk)$/;"	f	file:
+purge_sendQ	source/utcp.c	/^static void purge_sendQ(ptcp_sk tcp_sk)$/;"	f	file:
+queue	include/list.h	/^struct queue$/;"	s
+queue_len	source/list.c	/^int queue_len(const struct queue *q)$/;"	f
+queue_node	include/list.h	/^struct queue_node$/;"	s
+queue_node_next	source/list.c	/^void *queue_node_next(struct queue_node *node)$/;"	f
+quick_ack_mode	include/utcp.h	/^  uint8 quick_ack_mode;$/;"	m	struct:tcp_sk
+rcv_wscale	include/utcp.h	/^  uint16 rcv_wscale;$/;"	m	struct:mig_info
+rcv_wscale	include/utcp.h	/^  uint16 rcv_wscale;$/;"	m	struct:tcp_sk
+recvQ	include/utcp.h	/^  struct queue recvQ;$/;"	m	struct:tcp_sk	typeref:struct:tcp_sk::queue
+recvnxt	include/utcp.h	/^  uint32 recvnxt;$/;"	m	struct:mig_info
+recvnxt	include/utcp.h	/^  uint32 recvnxt;$/;"	m	struct:tcp_sk
+recycle_hdr	include/utcp.h	/^  struct recyclehdr recycle_hdr;$/;"	m	struct:tcp_sk	typeref:struct:tcp_sk::recyclehdr
+recyclehdr	include/utcp.h	/^struct recyclehdr$/;"	s
+ref_tcp_meta	source/utcp.c	/^static inline ptcp_pkt_meta ref_tcp_meta(struct queue_node *node)$/;"	f	file:
+ref_timer_info	source/timer.c	/^static inline ptimerinfo ref_timer_info(ptimerinfo_node node)$/;"	f	file:
+register_sigint_handler	source/test_timer.c	/^void register_sigint_handler()$/;"	f
+register_timer	source/timer.c	/^static int register_timer()$/;"	f	file:
+remove_from_retransmit	source/utcp.c	/^int remove_from_retransmit(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f
+remove_ofoQ_head	source/utcp.c	/^static inline void remove_ofoQ_head(ptcp_sk tcp_sk)$/;"	f	file:
+remove_timer	source/timer.c	/^int remove_timer(void *tinfo)$/;"	f
+remove_timerinfo	source/timer.c	/^static inline int remove_timerinfo(ptimerinfo_node node, struct dll *pdll)$/;"	f	file:
+restart_timer	source/timer.c	/^int restart_timer(void *tinfo)$/;"	f
+retr_timer	include/utcp.h	/^  void *retr_timer; \/* If retr timer started for this meta, retr_timer is non-null *\/$/;"	m	struct:tcp_pkt_meta_t
+retransmit_backoff	source/utcp.c	/^static inline void retransmit_backoff(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+rollover	include/timer.h	/^  uint32 rollover; \/\/may be required in future$/;"	m	struct:mytimer
+rto	include/utcp.h	/^  uint16 rto;$/;"	m	struct:tcp_pkt_meta_t
+rto	include/utcp.h	/^  uint32 rto;$/;"	m	struct:tcp_sk
+rttvar	include/utcp.h	/^  uint32 rttvar;$/;"	m	struct:tcp_sk
+seg_ack	include/utcp.h	/^  uint32 seg_ack;$/;"	m	struct:tcp_recv_pkt_meta_t
+seg_contains_data	source/utcp.c	/^static inline int seg_contains_data(ptcp_recv_meta recv_meta)$/;"	f	file:
+sendQ	include/utcp.h	/^  struct queue sendQ;$/;"	m	struct:tcp_sk	typeref:struct:tcp_sk::queue
+sent_time	include/utcp.h	/^  uint32 sent_time;$/;"	m	struct:tcp_pkt_meta_t
+set_cwnd_on_reno_expiry	source/utcp.c	/^static inline void set_cwnd_on_reno_expiry(ptcp_sk tcp_sk)$/;"	f	file:
+siginthandler	source/test_timer.c	/^void siginthandler(int cause, siginfo_t *info, void *uctxt)$/;"	f
+signed_diff	include/utype.h	/^static inline int signed_diff(uint32 seq1, uint32 seq2)$/;"	f
+slot	include/timer.h	/^  uint16 slot;$/;"	m	struct:timerinfo
+snd_wl1	include/utcp.h	/^  uint32 snd_wl1;$/;"	m	struct:tcp_sk
+snd_wl2	include/utcp.h	/^  uint32 snd_wl2;$/;"	m	struct:tcp_sk
+snd_wscale	include/utcp.h	/^  uint16 snd_wscale;$/;"	m	struct:mig_info
+snd_wscale	include/utcp.h	/^  uint16 snd_wscale;$/;"	m	struct:tcp_sk
+sndnxt	include/utcp.h	/^  uint32 sndnxt;$/;"	m	struct:tcp_sk
+snduna	include/utcp.h	/^  uint32 snduna;$/;"	m	struct:mig_info
+snduna	include/utcp.h	/^  uint32 snduna;$/;"	m	struct:tcp_sk
+sndwnd	include/utcp.h	/^  uint32 sndwnd;$/;"	m	struct:tcp_sk
+soc_addr	include/utcp.h	/^  soc_addr_t soc_addr[2];$/;"	m	struct:tcp_sk
+soc_addr	include/utcp.h	/^struct soc_addr$/;"	s
+soc_addr_t	include/utcp.h	/^typedef struct soc_addr soc_addr_t;$/;"	t	typeref:struct:soc_addr
+src_addr	include/utcp_csum.h	/^    __u32 src_addr;$/;"	m	struct:tcp_pseudo
+srtt	include/utcp.h	/^  uint32 srtt;$/;"	m	struct:tcp_sk
+ssthresh	include/utcp.h	/^  uint32 ssthresh;$/;"	m	struct:tcp_sk
+start_retransmit_timer	source/utcp.c	/^int start_retransmit_timer(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f
+start_seq	include/utcp.h	/^  uint32 start_seq;$/;"	m	struct:tcp_pkt_meta_t
+start_seq	include/utcp.h	/^  uint32 start_seq;$/;"	m	struct:tcp_recv_pkt_meta_t
+start_seq_of_tcp_meta	source/utcp.c	/^static inline uint32 start_seq_of_tcp_meta(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+start_timer	source/timer.c	/^int start_timer()$/;"	f
+stop_all_pending_timers	source/timer.c	/^static inline void stop_all_pending_timers()$/;"	f	file:
+stop_retransmit_timer	source/utcp.c	/^static int stop_retransmit_timer(ptcp_pkt_meta tcp_meta)$/;"	f	file:
+stop_timer	source/timer.c	/^int stop_timer()$/;"	f
+stop_timer_list	source/timer.c	/^void stop_timer_list(struct dll *timer_list)$/;"	f
+t_type	include/timer.h	/^enum t_type$/;"	g
+tail	include/list.h	/^  struct dll_node *tail;$/;"	m	struct:dll	typeref:struct:dll::dll_node
+tail	include/utcp.h	/^  struct tcp_recv_pkt_meta_t *tail;$/;"	m	struct:ofoQ_struct	typeref:struct:ofoQ_struct::tcp_recv_pkt_meta_t
+tcp_basic_checks	source/utcp.c	/^static int tcp_basic_checks(ptcp_recv_meta recv_meta)$/;"	f	file:
+tcp_callbacks	include/utcp.h	/^struct tcp_callbacks$/;"	s
+tcp_cb	include/utcp.h	/^typedef struct tcp_callbacks tcp_cb;$/;"	t	typeref:struct:tcp_callbacks
+tcp_checksum	source/utcp_csum.c	/^unsigned short tcp_checksum(struct iphdr * ip, struct tcphdr * tcp) $/;"	f
+tcp_csum	source/utcp_csum.c	/^unsigned short tcp_csum(unsigned int src, unsigned int dst,unsigned short *tcp_seg, unsigned int tcp_len)$/;"	f
+tcp_hdr	include/utcp.h	/^  struct tcphdr tcp_hdr;$/;"	m	struct:recyclehdr	typeref:struct:recyclehdr::tcphdr
+tcp_hdr	source/utcp.c	5;"	d	file:
+tcp_hlen	include/utcp.h	/^  uint8 tcp_hlen; \/* Total TCP header len and -20 gives the optional header len *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+tcp_hlen	include/utcp.h	/^  uint8 tcp_hlen; \/* tcp_hlen present in pkt *\/$/;"	m	struct:tcp_pkt_meta_t
+tcp_new_payload_start	include/utcp.h	/^  uint8 *tcp_new_payload_start; \/* Start of original\/non retr payload *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+tcp_opt	include/utcp.h	/^  char tcp_opt[MAX_TCP_OPT_HLEN];$/;"	m	struct:recyclehdr
+tcp_opt_len	include/utcp.h	/^  uint8 tcp_opt_len;$/;"	m	struct:recyclehdr
+tcp_payload	include/utcp.h	/^  uint16 tcp_payload; \/* length of tcp payload in this packet *\/$/;"	m	struct:tcp_pkt_meta_t
+tcp_pkt_meta	include/utcp.h	/^typedef struct tcp_pkt_meta_t tcp_pkt_meta;$/;"	t	typeref:struct:tcp_pkt_meta_t
+tcp_pkt_meta_t	include/utcp.h	/^struct tcp_pkt_meta_t$/;"	s
+tcp_pseudo	include/utcp_csum.h	/^typedef struct tcp_pseudo$/;"	s
+tcp_recv_meta	include/utcp.h	/^typedef struct tcp_recv_pkt_meta_t   tcp_recv_meta;$/;"	t	typeref:struct:tcp_recv_pkt_meta_t
+tcp_recv_pkt_meta_t	include/utcp.h	/^struct tcp_recv_pkt_meta_t$/;"	s
+tcp_sk	include/utcp.h	/^  ptcp_sk tcp_sk; \/* TCP socket to which this meta belongs *\/$/;"	m	struct:tcp_pkt_meta_t
+tcp_sk	include/utcp.h	/^  ptcp_sk tcp_sk; \/* TCP socket to which this meta belongs *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+tcp_sk	include/utcp.h	/^  void *tcp_sk;$/;"	m	struct:peer_bind
+tcp_sk	include/utcp.h	/^struct tcp_sk$/;"	s
+tcp_sum_calc	source/utcp_csum.c	/^uint16 tcp_sum_calc(uint16 len_tcp, uint16 src_addr[],uint16 dest_addr[], int padding, uint16 buff[])$/;"	f
+tcp_valid_len	include/utcp.h	/^  uint16 tcp_valid_len; \/* Total non retr bytes in this segment *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+tcpdstport	include/utcp.h	123;"	d
+tcppkt	include/utcp.h	/^  uint8 *tcppkt; \/* start of TCP header *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+tcpsrcport	include/utcp.h	122;"	d
+test1	source/test_timer.c	/^int *test1, *test2;$/;"	v
+test2	source/test_timer.c	/^int *test1, *test2;$/;"	v
+time	include/timer.h	/^  uint32 time; \/\/may be required in future$/;"	m	struct:mytimer
+time_now	include/timer.h	66;"	d
+timeout	include/timer.h	/^  uint16 timeout;$/;"	m	struct:timerinfo
+timer1	source/test_timer.c	/^void timer1(void *userptr)$/;"	f
+timer2	source/test_timer.c	/^void timer2(void *userptr)$/;"	f
+timer_handler	source/timer.c	/^void timer_handler(int cause, siginfo_t *HowCome, void *ucontext) $/;"	f
+timer_running	include/timer.h	/^  uint8 timer_running;$/;"	m	struct:mytimer
+timer_type	include/timer.h	/^typedef enum t_type timer_type;$/;"	t	typeref:enum:t_type
+timer_wheel	include/timer.h	/^typedef struct dll timer_wheel;$/;"	t	typeref:struct:dll
+timerinfo	include/timer.h	/^struct timerinfo$/;"	s
+timerwheel	include/timer.h	/^  timer_wheel timerwheel[WHEEL_LEN];$/;"	m	struct:mytimer
+tip_sk	include/uip.h	/^typedef struct ip_sk tip_sk;$/;"	t	typeref:struct:ip_sk
+ttcp_sk	include/utcp.h	/^typedef struct tcp_sk ttcp_sk;$/;"	t	typeref:struct:tcp_sk
+ttimerinfo	include/timer.h	/^typedef struct timerinfo ttimerinfo;$/;"	t	typeref:struct:timerinfo
+ttl	include/uip.h	/^  uint8 ttl;$/;"	m	struct:ip_sk
+ttl_tcp_payload	include/utcp.h	/^  uint16 ttl_tcp_payload; \/* Len of total tcp payload in this segment *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+twheel	include/timer.h	/^struct mytimer twheel;$/;"	v	typeref:struct:mytimer
+type	include/timer.h	/^  timer_type type;$/;"	m	struct:timerinfo
+uchar	include/utype.h	/^typedef unsigned char uchar;$/;"	t
+uhyper	include/utype.h	/^typedef unsigned long long uhyper;$/;"	t
+uint16	include/utype.h	/^typedef unsigned short uint16;$/;"	t
+uint32	include/utype.h	/^typedef unsigned int uint32;$/;"	t
+uint8	include/utype.h	/^typedef unsigned char uint8;$/;"	t
+unlikely	include/utype.h	24;"	d
+update_ip_hdr	source/utcp.c	/^static int update_ip_hdr(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f	file:
+update_sndnxt	source/utcp.c	/^static inline void update_sndnxt(ptcp_sk tcp_sk, psendQ_node sndnode, uint32 fsend_bytes)$/;"	f	file:
+update_snduna	source/utcp.c	/^static inline void update_snduna(ptcp_sk tcp_sk, psendQ_node sndnode, uint32 acked_bytes)$/;"	f	file:
+update_ssthresh	source/utcp.c	/^static inline void update_ssthresh(ptcp_sk tcp_sk, uint32 new_val)$/;"	f	file:
+update_tcp_hdr	source/utcp.c	/^static int update_tcp_hdr(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f	file:
+update_tcp_opt_hdr	source/utcp.c	/^static void update_tcp_opt_hdr(uint8* opt_hdr, uint8 opt_len, ptcp_sk tcp_sk)$/;"	f	file:
+update_tcp_rcvnxt	source/utcp.c	/^static inline void update_tcp_rcvnxt(ptcp_sk tcp_sk, uint32 seq)$/;"	f	file:
+update_tcp_seqspace	source/utcp.c	/^static inline void update_tcp_seqspace(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f	file:
+user_peer_ptr	include/utcp.h	/^  void *user_peer_ptr;$/;"	m	struct:peer_bind
+userptr	include/timer.h	/^  void *userptr;$/;"	m	struct:timerinfo
+userptr	include/utcp.h	/^  void *userptr; \/* Userptr associated with this pkt_meta *\/$/;"	m	struct:tcp_recv_pkt_meta_t
+userptr	include/utcp.h	/^  void *userptr; \/* useptr associated with this pkt_meta *\/$/;"	m	struct:tcp_pkt_meta_t
+utcp_abort_connection	source/utcp.c	/^int utcp_abort_connection(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f
+utcp_ack	source/utcp.c	/^int utcp_ack(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta, uint32 flag)$/;"	f
+utcp_ack_probe	source/utcp.c	/^static void utcp_ack_probe(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_append_sendQ	source/utcp.c	/^int utcp_append_sendQ(ptcp_sk tcp_sk, ptcp_pkt_meta meta)$/;"	f
+utcp_bind_peer_socks	source/utcp.c	/^void utcp_bind_peer_socks(ptcp_sk tcp_sk1, void *userptr1, ptcp_sk tcp_sk2,void *userptr2, peer_binding_t binding)$/;"	f
+utcp_bind_tcp_sk	source/utcp.c	/^static inline void utcp_bind_tcp_sk(ptcp_sk tcp_sk, uint32 localaddr, uint32 remoteaddr, uint16 localport, uint16 remoteport)$/;"	f	file:
+utcp_can_update_window	source/utcp.c	/^static inline int utcp_can_update_window(ptcp_sk tcp_sk, uint32 seg_ack, uint32 seg_seq, uint32 nwin)$/;"	f	file:
+utcp_clean_retx_queue	source/utcp.c	/^static uint32 utcp_clean_retx_queue(ptcp_sk tcp_sk, uint32 seg_ack)$/;"	f	file:
+utcp_cong_avoid	source/utcp.c	/^static inline void utcp_cong_avoid(ptcp_sk tcp_sk, int bytes_acked)$/;"	f	file:
+utcp_cong_rto_expiry	source/utcp.c	/^static inline void utcp_cong_rto_expiry(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_data_enqueue	source/utcp.c	/^int utcp_data_enqueue(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f
+utcp_data_to_app	source/utcp.c	/^int utcp_data_to_app(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f
+utcp_device_send	source/utcpio.c	/^int  utcp_device_send(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta, uint8 *pkt, uint16 pkt_len)$/;"	f
+utcp_err	include/utcp_err.h	/^enum utcp_err$/;"	g
+utcp_err_t	include/utcp_err.h	/^typedef enum utcp_err utcp_err_t;$/;"	t	typeref:enum:utcp_err
+utcp_incoming_ip_pkt	source/utcp.c	/^int utcp_incoming_ip_pkt(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta, uint8* ippkt, uint16 len)$/;"	f
+utcp_incoming_packet	source/utcp.c	/^int utcp_incoming_packet(uint8* ippkt, uint16 len, ptcp_sk tcp_sk)$/;"	f
+utcp_incoming_tcp_pkt	source/utcp.c	/^int utcp_incoming_tcp_pkt(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f
+utcp_init_recvQ	include/utcp.h	/^static inline utcp_init_recvQ(precvQ recvQptr)$/;"	f
+utcp_init_sendQ	source/utcp.c	/^static inline void utcp_init_sendQ(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_may_fast_retransmit	source/utcp.c	/^static inline utcp_may_fast_retransmit(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_may_send_wndupd	source/utcp.c	/^static void utcp_may_send_wndupd(ptcp_sk tcp_sk, int bytes_acked)$/;"	f	file:
+utcp_migrate_socket	source/utcp.c	/^int utcp_migrate_socket(ptcp_sk tcp_sk, pmig_info mig_info)$/;"	f
+utcp_ofo_queue	source/utcp.c	/^int utcp_ofo_queue(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f
+utcp_packetize_buff	source/utcp.c	/^int utcp_packetize_buff(ptcp_sk tcp_sk, const uint8 *buff, const uint32 len, const void *buff_handle, uint32 *bytes_copied)$/;"	f
+utcp_probe_timer_expiry	source/utcp.c	/^static void utcp_probe_timer_expiry(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_recvQ_len	source/utcp.c	/^static inline int utcp_recvQ_len(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_recv_establish	source/utcp.c	/^int utcp_recv_establish(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta)$/;"	f
+utcp_register_data_to_app	source/utcp.c	/^void utcp_register_data_to_app(ptcp_sk tcp_sk, void (*data_to_app)(void *tcp_sk, uint8* data, uint16 len, void *pktuserptr, void *data_to_app_ptr, void *peer_ptr), void *userptr)$/;"	f
+utcp_register_packet_out	source/utcp.c	/^void utcp_register_packet_out(ptcp_sk tcp_sk, void (*packet_out)(void *tcp_sk, uint8* ippkt, uint16 len, void* packet_out_ptr, void* user_peer_ptr), void* userptr)$/;"	f
+utcp_remove_sendQ	source/utcp.c	/^int utcp_remove_sendQ(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f
+utcp_reno_expiry	source/utcp.c	/^static void utcp_reno_expiry(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_restart_probe_timer	source/utcp.c	/^static void utcp_restart_probe_timer(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_retransmit_expiry	source/utcp.c	/^void utcp_retransmit_expiry(void *tcp_pkt_meta)$/;"	f
+utcp_retransmit_pkt	source/utcp.c	/^int utcp_retransmit_pkt(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f
+utcp_send	source/utcp.c	/^int utcp_send(ptcp_sk tcp_sk, uint8 *buff, uint32 len, void *buff_handle, uint32 *bytes_copied)$/;"	f
+utcp_sendQ_len	source/utcp.c	/^static inline int utcp_sendQ_len(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_send_one_pkt	source/utcp.c	/^int utcp_send_one_pkt(ptcp_sk tcp_sk, ptcp_pkt_meta tcp_meta)$/;"	f
+utcp_snd_ack	source/utcp.c	/^static void utcp_snd_ack(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_snd_ack_check	source/utcp.c	/^static inline void utcp_snd_ack_check(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_start_probe_timer	source/utcp.c	/^static void utcp_start_probe_timer(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_stop_probe_timer	source/utcp.c	/^static void utcp_stop_probe_timer(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_tcp_reno	source/utcp.c	/^static utcp_tcp_reno(ptcp_sk tcp_sk, int bytes_acked)$/;"	f	file:
+utcp_try_send	source/utcp.c	/^int utcp_try_send(ptcp_sk tcp_sk)$/;"	f
+utcp_unbind_peer_socks	source/utcp.c	/^void utcp_unbind_peer_socks(ptcp_sk tcp_sk)$/;"	f
+utcp_update_rto	source/utcp.c	/^static inline void utcp_update_rto(ptcp_sk tcp_sk)$/;"	f	file:
+utcp_update_rtt_no_ts	source/utcp.c	/^static void utcp_update_rtt_no_ts(ptcp_sk tcp_sk, uint32 start_time)$/;"	f	file:
+utcp_update_sndwl	source/utcp.c	/^static inline void utcp_update_sndwl(ptcp_sk tcp_sk, uint32 seq)$/;"	f	file:
+utcp_update_window	source/utcp.c	/^static inline uint32 utcp_update_window(ptcp_sk tcp_sk, ptcp_recv_meta recv_meta, uint32 seg_ack, uint32 seg_seq)$/;"	f	file:
+wnd	include/utcp.h	/^  uint16 wnd;$/;"	m	struct:mig_info
+zero	include/utcp_csum.h	/^    __u8 zero;$/;"	m	struct:tcp_pseudo
